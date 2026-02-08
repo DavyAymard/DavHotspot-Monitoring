@@ -1,0 +1,13 @@
+# Sécurité critique (Identifiants SNMP et VPS)
+snmp_exporter/config/snmp.yml
+*.env
+secrets.rules
+
+# Données et logs
+data/
+prometheus_data/
+grafana_data/
+*.log
+
+# Fichiers système Mac
+.DS_Store
